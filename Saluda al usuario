@@ -1,0 +1,27 @@
+/******************************************************************************
+Saluda al usuario 
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 120422
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Variables
+    string nombreUsuario;
+    
+    //Proceso
+    cout<<"Cual es tu nombre? ";
+    cin>>nombreUsuario;
+    
+    //Saluda al usuario
+    cout<<"Hola "<<nombreUsuario<<endl;
+    return 0;
+}
+
+
+
+
+
+
+
